@@ -5,7 +5,7 @@ import html2text
 from parsel import Selector
 from scrapy.selector import Selector
 
-class BookspiderSpider(scrapy.Spider):
+class ClaojspiderSpider(scrapy.Spider):
     def __init__(self):
         self.pgcnt=0
     name = 'claojspider'
